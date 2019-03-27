@@ -5,6 +5,6 @@
  :deps true
 
  :builds
- {:check-all {:target :node-script
-              :output-to "target/check-all.js"
-              :main tests.runner/run-all}}}
+ {:check-all {:target :node-test
+              :ns-regexp "tests"
+              :output-to "target/check-all.js"}}}
