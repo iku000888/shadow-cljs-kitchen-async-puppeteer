@@ -8,18 +8,18 @@ An example demonstarting automated browser tests with:
 
 ## Setup
 
-0. Get `clojure` command working
+1. Get `clojure` command working
 1. `npm install -g shadow-cljs`
-2. `npm install puppeteer`
+1. `npm install puppeteer`
 
 ## node repl
 
-0. `shadow-cljs node-repl`
+1. `shadow-cljs node-repl`
 
 ## running tests
 
 1. `shadow-cljs compile`
-2. `node target/check-all.js`
+1. `node target/check-all.js`
 
 ## License
 &copy; Parkside Securities, Inc.
