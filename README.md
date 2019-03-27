@@ -1,10 +1,11 @@
 # shadow-cljs-kitchen-async-puppeteer
 
-An example demonstarting automated browser tests with:
+An example demonstarting automated async browser tests with:
 
 - shadow-cljs
 - kitchen-async
 - puppeteer
+- cljs.test
 
 ## Setup
 
