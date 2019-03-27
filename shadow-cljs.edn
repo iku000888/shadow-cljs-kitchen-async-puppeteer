@@ -1,0 +1,10 @@
+;; shadow-cljs configuration
+{:source-paths
+ ["src"]
+
+ :deps true
+
+ :builds
+ {:check-all {:target :node-script
+              :output-to "target/check-all.js"
+              :main tests.runner/run-all}}}

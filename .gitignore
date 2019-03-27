@@ -1,0 +1,8 @@
+node_modules
+target/
+tests_output/
+/package-lock.json
+/chromedriver.log
+.cpcache/
+.shadow-cljs/
+/.nrepl-port
