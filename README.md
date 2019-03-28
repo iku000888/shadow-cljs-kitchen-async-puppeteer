@@ -21,6 +21,3 @@ An example demonstarting automated async browser tests with:
 
 1. `shadow-cljs compile`
 1. `node target/check-all.js`
-
-## License
-&copy; Parkside Securities, Inc.
